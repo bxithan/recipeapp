@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8d6d6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f6b2b2;
+    padding: 10px 20px;
+    border-bottom: 5px solid #d28e8e;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    color: #5c3f3f;
+    flex-grow: 1;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: #5c3f3f; 
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-left: 10px; 
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #f5a3a3;
+}
+
+main {
+    background-color: #fff9e6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+h2, h3, h4 {
+    color: #5c3f3f;
+}
+
+ul, ol {
+    line-height: 2;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6b2b2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f5a3a3;
+}
+
+#ingredientList {
+    margin: 10px 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultArea {
+    margin-top: 20px;
+}

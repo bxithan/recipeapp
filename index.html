@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สร้างสูตรอาหาร</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="keyword.html">keyword</a>
+        </nav>
+    </header>
+    <main>
+        <h2>สร้างสูตรอาหารจากวัตถุดิบ</h2>
+        <textarea id="ingredientInput" rows="5" placeholder="พิมพ์วัตถุดิบ และพิมพ์ตัวสะกดให้ถูกต้อง (กด Enter เพื่อเพิ่มวัตถุดิบ)"></textarea>
+        <button onclick="searchRecipes()">ค้นหาเมนู</button>
+        <h3>วัตถุดิบที่เพิ่ม:</h3>
+        <ul id="ingredientList"></ul>
+        <h3>ผลลัพธ์:</h3>
+        <div id="resultArea"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
